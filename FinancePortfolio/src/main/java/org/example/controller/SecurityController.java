@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 
 import static org.springframework.http.HttpHeaders.ORIGIN;
 
-@CrossOrigin(origins = "https://your-frontend.vercel.app")
+@CrossOrigin(origins = "https://finance-tracker-coral-three.vercel.app")
 @RestController
 @RequestMapping("/api/auth")
 public class SecurityController {

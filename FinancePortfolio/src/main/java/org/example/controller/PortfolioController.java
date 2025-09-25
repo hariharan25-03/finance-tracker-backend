@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.UUID;
 
-@CrossOrigin(origins = "https://your-frontend.vercel.app")
+@CrossOrigin(origins = "https://finance-tracker-coral-three.vercel.app")
 @RestController
 @RequestMapping("/api/portfolio")
 public class PortfolioController {
